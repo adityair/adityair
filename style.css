@@ -1,0 +1,24 @@
+body{
+  background-color: #0D1117;
+}
+
+nav{
+  background-color: #010409 !important;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: #E6EDF3;
+}
+
+a:hover{
+  text-decoration: none !important;
+}
+
+#list::after{
+  background-color: green;
+  width: 10px;
+}
+
+.active::before{
+  background-color: green;
+}
